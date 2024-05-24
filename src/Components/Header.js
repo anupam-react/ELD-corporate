@@ -7,9 +7,15 @@ import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { BsPlayBtn } from "react-icons/bs";
 import Notification from "./Notification";
+import Drawer from "./Drawer";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+
+  const toggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
 
   const handleToggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -85,7 +91,15 @@ const Header = () => {
           </div>
         </div>
 
-        <Notification />
+        {/* <Notification /> */}
+        <div className="App">
+      <BiSolidBell
+          size={25}
+          style={{ color: "#B0C3CC" , cursor:"pointer" }}
+          onClick={toggleDrawer}
+        />
+      <Drawer isOpen={isDrawerOpen} onClose={toggleDrawer} />
+    </div>
 
       </div>
     </div>

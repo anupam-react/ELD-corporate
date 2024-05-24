@@ -31,6 +31,7 @@ const Sidebar = () => {
             </div>
           </li>
         </Link>
+        <Link to="/location">
         <li className="flex pl-5 items-center w-[224px] h-[48px] bg-white rounded-lg   cursor-pointer">
           <img src={location} alt="" className="w-[24px] h-[24px] " />
 
@@ -38,6 +39,7 @@ const Sidebar = () => {
             Location
           </div>
         </li>
+        </Link>
         <Link to="/Dashcams">
           <li className="flex pl-5 items-center w-[224px] h-[48px] bg-white rounded-lg   cursor-pointer">
             <img src={dascams} alt="" className="w-[24px] h-[24px] " />

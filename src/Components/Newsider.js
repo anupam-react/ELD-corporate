@@ -23,7 +23,9 @@ import { ReactComponent as fmcsa } from "../Assets/Sidebar/fmcsa.svg";
 const Newsidebar = () => {
   const menus = [
     { name: "Logbook", link: "/Logbook", icon: logbook },
-    { name: "Location", link: "/", icon: location },
+    { name: "Location", link: "/location", icon: location },
+    { name: "Traking Links", link: "/Trackinglinks", icon: location },
+    { name: "Geofences", link: "/Geofences", icon: location },
     { name: "Dashcams", link: "/Dashcams", icon: dascams },
     {
       name: "Reports",

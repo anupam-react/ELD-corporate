@@ -1,29 +1,25 @@
+// src/Drawer.js
+import React from 'react';
+import { BiSolidBell } from 'react-icons/bi';
+import { BsPlayBtn } from 'react-icons/bs';
+import { IoCloseSharp } from 'react-icons/io5';
 
-"use client";
-
-import { Button, Drawer } from "flowbite-react";
-import { useState } from "react";
-import { BiSolidBell } from "react-icons/bi";
-import { BsPlayBtn } from "react-icons/bs";
-import { IoCloseSharp } from "react-icons/io5";
-
-const  Notification = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClose = () => setIsOpen(false);
-
+const Drawer = ({ isOpen, onClose }) => {
   return (
     <>
-      <div className="flex min-h-[50vh] items-center justify-center">
-      <BiSolidBell
-          size={25}
-          style={{ color: "#B0C3CC" , cursor:"pointer" }}
-          onClick={() => setIsOpen(true)}
-        />
-      </div>
-      <Drawer open={isOpen} onClose={handleClose} position="right">
-        <Drawer.Items>
-        <div className=" bg-white h-full rounded-md shadow-lg z-10">
+      {/* Overlay */}
+      <div
+        className={`fixed inset-0 bg-black bg-opacity-50 z-40 transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+        onClick={onClose}
+      ></div>
+
+      {/* Drawer */}
+      <div
+        className={`fixed inset-y-0 right-0 bg-white w-[400px] z-50 shadow-lg transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
+      >
+        <div className="p-4">
+          <div className="">
+            {/* Drawer content goes here */}
             <div className="flex justify-between p-2">
               <div className="flex items-center gap-2 font-semibold">
                 <BiSolidBell style={{ color: "#B0C3CC" }} /> New Feature
@@ -31,7 +27,7 @@ const  Notification = () => {
               <span className="">
                 <IoCloseSharp
                   size={25}
-                onClick={handleClose}
+                onClick={onClose}
                   className="cursor-pointer"
                 />
               </span>
@@ -109,13 +105,10 @@ const  Notification = () => {
             </div>
 
           </div>
-        </Drawer.Items>
-      </Drawer>
+          </div>
+      </div>
     </>
-   
   );
-}
-export default Notification
+};
 
-
-
+export default Drawer;

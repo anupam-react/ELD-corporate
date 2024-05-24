@@ -31,6 +31,11 @@ import Forgetpassword from "./Components/Login/Forgetpassword";
 import Verifyemailandphone from "./Components/Login/Verifyemailandphone";
 import Verificationcode from "./Components/Login/Verificationcode";
 import LogbookDetails from "./Pages/LogbookDetails";
+import Location from "./Pages/Location";
+import Park from "./Pages/Park";
+import ParkedCar from "./Pages/ParkedCar";
+import Geofences from "./Pages/Geofences";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -55,6 +60,11 @@ const router = createBrowserRouter([
       { path: "/Dashboard", element: <Dashboard /> },
       { path: "/Logbook", element: <Logbook /> },
       { path: "/Logbook/:id", element: <LogbookDetails /> },
+      { path: "/location", element: <Location /> },
+      { path: "/park", element: <Park /> },
+      { path: "/parked", element: <ParkedCar /> },
+      { path: "/Trackinglinks", element: <Trackinglinks /> },
+      { path: "/Geofences", element: <Geofences /> },
       { path: "/Reports", element: <Reports /> },
       { path: "/Reportdetails", element: <Reportdetails /> },
       { path: "/Dashcams", element: <Dashcams /> },
@@ -75,7 +85,7 @@ const router = createBrowserRouter([
       { path: "/Billingdetails", element: <Billingdetails /> },
       { path: "/Apisharing", element: <Apisharing /> },
       { path: "/Diagnosticevents", element: <Diagnosticevents /> },
-      { path: "/Trackinglinks", element: <Trackinglinks /> },
+    
     ],
   },
 ]);
