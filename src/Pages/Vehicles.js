@@ -5,9 +5,11 @@ import { GoDotFill } from "react-icons/go";
 import { MdOutlineEdit } from "react-icons/md";
 import { IoMdAdd } from "react-icons/io";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
+import { useNavigate } from "react-router-dom";
 
 const Vehicles = () => {
   const [selectedTab, setselectedTab] = useState("Active Truck");
+  const navigate = useNavigate('')
   return (
     <div className="p-5">
       <div className="text-[28px] font-semibold flex justify-start">
@@ -34,7 +36,7 @@ const Vehicles = () => {
             }`}
             onClick={() => setselectedTab("Inactive")}
           >
-            Inactive (4) {" "}
+            Deleted Truck
           </div>
         </div>
         <div className="">
@@ -81,7 +83,7 @@ const Vehicles = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="border-b h-[135px]">
+                    <tr className="border-b h-[135px] cursor-pointer" onClick={()=>navigate('/Vehicledetail/2010')}>
                       <td>
                         <div className="font-semibold flex items-center pl-2">
                           <input type="checkbox" />{" "}
@@ -103,14 +105,14 @@ const Vehicles = () => {
                       <td className="font-semibold">ELD</td>
                       <td></td>
                     </tr>
-                    <tr className="border-b h-[135px]">
+                    <tr className="border-b h-[135px]" onClick={()=>navigate('/Vehicledetail/2011')}>
                       <td>
                         <div className="font-semibold flex items-center pl-2">
                           <input type="checkbox" />{" "}
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
                       </td>
-                      <td className="text-left font-semibold">2010</td>
+                      <td className="text-left font-semibold">2011</td>
                       <td className="text-left">---</td>
                       <td className="font-semibold">3AKJHHDR6PSUJ9433</td>
                       <td>--</td>
@@ -125,14 +127,14 @@ const Vehicles = () => {
                       <td className="font-semibold">ELD</td>
                       <td></td>
                     </tr>
-                    <tr className="border-b h-[135px]">
+                    <tr className="border-b h-[135px]" onClick={()=>navigate('/Vehicledetail/2012')}>
                       <td>
                         <div className="font-semibold flex items-center pl-2">
                           <input type="checkbox" />{" "}
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
                       </td>
-                      <td className="text-left font-semibold">2010</td>
+                      <td className="text-left font-semibold">2012</td>
                       <td className="text-left">---</td>
                       <td className="font-semibold">3AKJHHDR6PSUJ9433</td>
                       <td>--</td>

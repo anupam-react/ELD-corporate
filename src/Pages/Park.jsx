@@ -3,7 +3,7 @@ import { GoogleMapPage } from '../Components/GoogleMap';
 import { useNavigate } from 'react-router-dom';
 
 const Park = () => {
-    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+    const [isDrawerOpen, setIsDrawerOpen] = useState(true);
     const navigate = useNavigate('')
     const toggleDrawer = () => {
       setIsDrawerOpen(!isDrawerOpen);

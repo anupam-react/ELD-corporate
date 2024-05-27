@@ -1,5 +1,4 @@
-import { Button, Modal } from "flowbite-react";
-import { useState } from "react";
+import { Modal } from "flowbite-react";
 
 export function PopUp({children , title , openModal, setOpenModal }) {
 

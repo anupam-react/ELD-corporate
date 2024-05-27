@@ -35,6 +35,12 @@ code {
   background-color: #34b7c1;
 }
 
+.bg-custom{
+  background-image: url('/public/images.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Adjust the position of the underline */
 .underline-offset-8::after {
   left: -8px; /* Adjust the offset as needed */

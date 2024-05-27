@@ -48,12 +48,15 @@ const Geofences = () => {
             <p className="text-[20px] text-center pb-2">
               How to add an Asset Tracker
             </p>
+            <div className="flex justify-center items-center">
             <iframe
-              width="300"
-              height="180"
+              width="full"
+              height="160"
               style={{ borderRadius: "8px" }}
               src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
             ></iframe>
+
+            </div>
           </div>
         </div>
         <div className="border border-1 text-[20px]  border-[#D8D8D8] shadow rounded-md p-4 mt-8 text-[#858B9A]">

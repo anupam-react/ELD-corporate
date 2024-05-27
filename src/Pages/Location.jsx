@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const Location = () => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(true);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   const navigate = useNavigate('')

@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 const Iftatrips = () => {
+  const [active ,setActive] = useState(0)
+  const [activeId ,setActiveId] = useState(0)
+  const navigate = useNavigate()
   return (
     <div className="p-5">
       <div className="font-semibold text-[20px] flex justify-start">
@@ -36,21 +40,27 @@ const Iftatrips = () => {
             </div>
           </div>
           <div className="flex mt-5">
-            <div className="w-[173px] h-[45px] bg-[#34B7C1] text-white flex justify-center items-center rounded-l-lg">
+        <div onClick={()=>{ 
+          setActive(0)
+          }} className={`${active === 0  ? 'w-[173px] h-[45px] cursor-pointer bg-[#34B7C1] text-white flex justify-center items-center rounded-l-lg' :'w-[173px] h-[45px] bg-[#F4F4F4] text-[#C5C5C5] flex justify-center items-center rounded-r-lg' }`}>
               Active Vehicles
             </div>
-            <div className="w-[173px] h-[45px] bg-[#F4F4F4] text-[#C5C5C5] flex justify-center items-center rounded-r-lg">
+            <div onClick={()=> setActive(1)} className={`${active === 1  ? 'w-[173px] h-[45px] cursor-pointer bg-[#34B7C1] text-white flex justify-center items-center rounded-l-lg' :'w-[173px] h-[45px] bg-[#F4F4F4] text-[#C5C5C5] flex justify-center items-center rounded-r-lg' }`}>
               Deleted Vehicles
             </div>
           </div>
           <div className="border mt-5 rounded-2xl h-[192px]">
-            <div className="flex justify-start p-5 border-b items-center gap-5">
+          <div  onClick={()=>{
+            navigate('/Iftatrips/1')
+             setActiveId(1)}} className={`${activeId === 1  ? 'flex justify-start p-5 border-b bg-[#34B7C1] text-white items-center gap-5' :'flex justify-start p-5 border-b items-center gap-5' }`}>
               <div className="border border-[#34B7C1] h-[50px] w-[50px] flex justify-center items-center rounded-full bg-[#EFF6FF] text-[#34B7C1]">
-                2
+                1
               </div>
               2101
             </div>
-            <div className="flex justify-start p-5  items-center gap-5">
+            <div onClick={()=>{ 
+               navigate('/Iftatrips/2')
+              setActiveId(2)}} className={`${activeId === 2  ? 'flex justify-start p-5 border-b bg-[#34B7C1] text-white items-center gap-5' :'flex justify-start p-5 border-b items-center gap-5' }`}>
               <div className="border border-[#34B7C1] h-[50px] w-[50px] flex justify-center items-center rounded-full bg-[#EFF6FF] text-[#34B7C1]">
                 2
               </div>

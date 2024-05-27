@@ -9,12 +9,16 @@ import { MdOutlineEdit } from "react-icons/md";
 import vehiclegallary from "../Assets/Vechicledetail/vihiclegallary.svg";
 import add from "../Assets/Vechicledetail/add.svg";
 import { IoCloseSharp } from "react-icons/io5";
+import { useNavigate, useParams } from "react-router-dom";
 const Vehicledetail = () => {
   const [selectedTab, setselectedTab] = useState("Overview");
   const [editvehicledetail, setEditvehicledetail] = useState(false);
   const [Vehicleregistration, setVehicleregistration] = useState(false);
   const [editLiability, setEditvehicleliability] = useState(false);
   const [cargoinsurance, setCargoinsurance] = useState(false);
+
+  const params = useParams()
+  const navigate = useNavigate('')
   return (
     <>
       {editvehicledetail ? (
@@ -381,8 +385,9 @@ const Vehicledetail = () => {
         </>
       ) : null}
       <div className="p-5">
-        <div className="text-[28px] underline font-semibold flex justify-start">
-          Vehicles 2021
+        <div className="text-[28px]  font-semibold flex justify-start">
+         <span className="underline cursor-pointer" onClick={()=>navigate('/Vehicles')}>Vehicles</span>  
+          <span className="pl-2 text-[#8E8F8F]">{'>'} {params?.id}</span> 
         </div>
         <div className="mt-10 flex justify-between">
           <div className=" flex">

@@ -21,8 +21,8 @@ const Drawer = ({ isOpen, onClose }) => {
           <div className="">
             {/* Drawer content goes here */}
             <div className="flex justify-between p-2">
-              <div className="flex items-center gap-2 font-semibold">
-                <BiSolidBell style={{ color: "#B0C3CC" }} /> New Feature
+              <div className="flex items-center gap-2 text-[24px] font-semibold">
+                <BiSolidBell style={{ color: "#B0C3CC"}} /> New Features
               </div>
               <span className="">
                 <IoCloseSharp
@@ -32,12 +32,68 @@ const Drawer = ({ isOpen, onClose }) => {
                 />
               </span>
             </div>
-            <div className="flex justify-between items-center border-b p-2">
+            <div className="flex justify-between border-b p-2">
               <div className="flex flex-col gap-2">
-                <span className="text-[#34B7C1] text-sm">
+                <span className="text-[#34B7C1] text-[18px]">
                   Organize Geofences with custom Geofence Types
                 </span>
-                <span className="text-[#858B9A] text-[10px]">
+                <span className="text-[#858B9A] text-[14px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt!!
+                </span>
+              </div>
+              <div>
+                <BsPlayBtn />
+              </div>
+            </div>
+            <div className="flex justify-between border-b p-2">
+              <div className="flex flex-col gap-2">
+                <span className="text-[#34B7C1] text-[18px]">
+                  Organize Geofences with custom Geofence Types
+                </span>
+                <span className="text-[#858B9A] text-[14px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt!!
+                </span>
+              </div>
+              <div>
+                <BsPlayBtn />
+              </div>
+            </div>
+            <div className="flex justify-between border-b p-2">
+              <div className="flex flex-col gap-2">
+                <span className="text-[#34B7C1] text-[18px]">
+                  Organize Geofences with custom Geofence Types
+                </span>
+                <span className="text-[#858B9A] text-[14px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt!!
+                </span>
+              </div>
+              <div>
+                <BsPlayBtn />
+              </div>
+            </div>
+            <div className="flex justify-between border-b p-2">
+              <div className="flex flex-col gap-2">
+                <span className="text-[#34B7C1] text-[18px]">
+                  Organize Geofences with custom Geofence Types
+                </span>
+                <span className="text-[#858B9A] text-[14px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt!!
+                </span>
+              </div>
+              <div>
+                <BsPlayBtn />
+              </div>
+            </div>
+            <div className="flex justify-between border-b p-2">
+              <div className="flex flex-col gap-2">
+                <span className="text-[#34B7C1] text-[18px]">
+                  Organize Geofences with custom Geofence Types
+                </span>
+                <span className="text-[#858B9A] text-[14px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt!!
                 </span>
@@ -47,62 +103,7 @@ const Drawer = ({ isOpen, onClose }) => {
               </div>
             </div>
           
-            <div className="flex justify-between items-center border-b p-2">
-              <div className="flex flex-col gap-2">
-                <span className="text-[#34B7C1] text-sm">
-                  Organize Geofences with custom Geofence Types
-                </span>
-                <span className="text-[#858B9A] text-[10px]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt!!
-                </span>
-              </div>
-              <div>
-                <BsPlayBtn />
-              </div>
-            </div>
-            <div className="flex justify-between items-center border-b p-2">
-              <div className="flex flex-col gap-2">
-                <span className="text-[#34B7C1] text-sm">
-                  Organize Geofences with custom Geofence Types
-                </span>
-                <span className="text-[#858B9A] text-[10px]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt!!
-                </span>
-              </div>
-              <div>
-                <BsPlayBtn />
-              </div>
-            </div>
-            <div className="flex justify-between items-center border-b p-2">
-              <div className="flex flex-col gap-2">
-                <span className="text-[#34B7C1] text-sm">
-                  Organize Geofences with custom Geofence Types
-                </span>
-                <span className="text-[#858B9A] text-[10px]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt!!
-                </span>
-              </div>
-              <div>
-                <BsPlayBtn />
-              </div>
-            </div>
-            <div className="flex justify-between items-center border-b p-2">
-              <div className="flex flex-col gap-2">
-                <span className="text-[#34B7C1] text-sm">
-                  Organize Geofences with custom Geofence Types
-                </span>
-                <span className="text-[#858B9A] text-[10px]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt!!
-                </span>
-              </div>
-              <div>
-                <BsPlayBtn />
-              </div>
-            </div>
+        
 
           </div>
           </div>
