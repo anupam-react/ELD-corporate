@@ -7,7 +7,7 @@ const Geofences = () => {
         <p className="font-[600] text-[28px]">Geofences preview</p>
         <div className="flex justify-between">
           <p className="text-[#858B9A]">
-            You are viewing a TruckX placeholder powered by a sample data set!
+            You are viewing a NXT placeholder powered by a sample data set!
           </p>
           <div className="flex gap-2">
             <div className="w-[18px] h-[18px] rounded-full bg-[#34B7C1]"></div>

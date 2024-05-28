@@ -344,7 +344,7 @@ const Billingdetails = () => {
                     <tr className="h-[80px]">
                       <td className="text-center">
                         {" "}
-                        TruckX Premium Plus Quartely
+                        NXT Premium Plus Quartely
                       </td>
                       <td className="text-center">2</td>
                       <td>
@@ -358,7 +358,7 @@ const Billingdetails = () => {
                     <tr className="h-[80px]">
                       <td className="text-center ">
                         {" "}
-                        TruckX Premium Plus Quartely
+                        NXT Premium Plus Quartely
                       </td>
                       <td className="text-center">2</td>
                       <td>

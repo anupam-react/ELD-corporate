@@ -407,8 +407,8 @@ const Logbook = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-2 justify-center mt-5">
-                <div className="w-[400px] h-[300px] box-shadow  flex flex-col gap-10 rounded-xl bg-white pt-5 pl-10 ">
+              <div className="flex flex-col md:flex-row gap-4 justify-between   mt-5">
+                <div onClick={()=>{navigate('/Drivers')}} className=" box-shadow  flex flex-col gap-10 rounded-xl bg-white p-6">
                   <div className="flex font-semibold text-[20px] items-center gap-2">
                     <img src={dot} alt="" className="w-[11px] h-[17px]" />#
                     Drivers
@@ -429,7 +429,7 @@ const Logbook = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-[400px] h-[300px] box-shadow  flex flex-col gap-10 rounded-xl bg-white pt-5 pl-10 ">
+                <div onClick={()=>{navigate('/location')}} className=" box-shadow  flex flex-col gap-10 rounded-xl bg-white p-6">
                   <div className="flex font-semibold text-[20px] items-center gap-2">
                     <img src={dot} alt="" className="w-[11px] h-[17px]" />#
                     Trucks & Vehicles
@@ -449,7 +449,7 @@ const Logbook = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-[400px] h-[300px] box-shadow  flex flex-col gap-10 rounded-xl bg-white pt-5 pl-10 ">
+                <div onClick={()=>{navigate('/Drivers')}} className=" box-shadow  flex flex-col gap-10 rounded-xl bg-white p-6">
                   <div className="flex font-semibold text-[20px] items-center gap-2">
                     <img src={dot} alt="" className="w-[11px] h-[17px]" />#
                     Drivers

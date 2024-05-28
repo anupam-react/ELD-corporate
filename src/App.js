@@ -12,17 +12,16 @@ import Iftareports from "./Pages/Iftareports";
 import Vehicles from "./Pages/Vehicles";
 import Vehicledetail from "./Pages/Vehicledetail";
 import Drivers from "./Pages/Drivers";
-// import Deleteddrivers from "./Pages/Deleteddrivers";
+import Deleteddrivers from "./Pages/Deleteddrivers";
 import Devices from "./Pages/Devices";
-// import Trakingdevices from "./Pages/Trackingdevices";
-// import Trackingdevices from "./Pages/Trackingdevices";
+import Trackingdevices from "./Pages/Trackingdevices";
 import Userroles from "./Pages/Userroles";
 import Terminals from "./Pages/Terminals";
-// import Sensordevices from "./Pages/Sensordevices";
-// import Dashcamdevices from "./Pages/Dashcamdevices";
+import Sensordevices from "./Pages/Sensordevices";
+import Dashcamdevices from "./Pages/Dashcamdevices";
 import Companyprofile from "./Pages/Companyprofile";
 import Billingdetails from "./Pages/Billingdetails";
-import Apisharing from "./Pages/Apisharing";
+// import Apisharing from "./Pages/Apisharing";
 import Alerts from "./Pages/Alerts";
 import Login from "./Components/Login/Login";
 import Diagnosticevents from "./Pages/Diagnosticevents";
@@ -38,7 +37,7 @@ import Geofences from "./Pages/Geofences";
 import IftatripsDetails from "./Pages/IftatripsDetails";
 import IftareportsDetails from "./Pages/IftareportsDetails";
 // import TerminalsDatils from "./Pages/TerminalsDatils";
-// import Trailers from "./Pages/Trailers";
+import Trailers from "./Pages/Trailers";
 
 const router = createBrowserRouter([
   {
@@ -78,20 +77,20 @@ const router = createBrowserRouter([
       { path: "/Iftareports/:id", element: <IftareportsDetails /> },
       { path: "/Vehicles", element: <Vehicles /> },
       { path: "/Vehicledetail/:id", element: <Vehicledetail /> },
-      // { path: "/Vehicles/trailers", element: <Trailers /> },
+      { path: "/Vehicles/trailers", element: <Trailers /> },
       { path: "/Drivers", element: <Drivers /> },
-      // { path: "/DeleteDrivers", element: <Deleteddrivers /> },
+      { path: "/DeleteDrivers", element: <Deleteddrivers /> },
       { path: "/Devices", element: <Devices /> },
       { path: "/Userroles", element: <Userroles /> },
-      // { path: "/Devices/TrackingDevices", element: <Trackingdevices /> },
-      // { path: "/Devices/SensorDevices", element: <Sensordevices /> },
-      // { path: "/Devices/DashcamDevices", element: <Dashcamdevices /> },
+      { path: "/Devices/TrackingDevices", element: <Trackingdevices /> },
+      { path: "/Devices/SensorDevices", element: <Sensordevices /> },
+      { path: "/Devices/DashcamDevices", element: <Dashcamdevices /> },
       { path: "/Terminals", element: <Terminals /> },
       // { path: "/Terminals/:id", element: <TerminalsDatils /> },
       { path: "/Alerts", element: <Alerts /> },
       { path: "/Companyprofile", element: <Companyprofile /> },
       { path: "/Billingdetails", element: <Billingdetails /> },
-      { path: "/Apisharing", element: <Apisharing /> },
+      // { path: "/Apisharing", element: <Apisharing /> },
       { path: "/Diagnosticevents", element: <Diagnosticevents /> },
     
     ],

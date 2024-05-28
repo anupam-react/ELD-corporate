@@ -54,17 +54,17 @@ const Vehicles = () => {
                 <table class="border ">
                   <thead>
                     <tr className="bg-[#F0FAFB] h-[65px]  ">
-                      <th className="w-[180px] text-left pl-2">
+                      <th className="w-[180px] text-center pl-2">
                         <input type="checkbox" /> Device
                       </th>
                       <th className=" w-[180px]  ">
-                        <div className="flex items-center justify-start gap-2">
+                        <div className="flex items-center justify-center gap-2">
                           Unit No <LuArrowUpDown />
                         </div>
                       </th>
-                      <th className=" w-[198px] text-left">Relay Switch</th>
+                      <th className=" w-[198px] text-center">Relay Switch</th>
                       <th className="w-[198px]">
-                        <div className="flex  items-center justify-start gap-2">
+                        <div className="flex  items-center justify-center gap-2">
                           VIN No
                           <LuArrowUpDown />
                         </div>
@@ -75,8 +75,8 @@ const Vehicles = () => {
                           Fault Codes <LuArrowUpDown />
                         </div>
                       </th>
-                      <th className="w-[180px] text-left">Driver </th>
-                      <th className="w-[269px] text-left">
+                      <th className="w-[180px] text-center">Driver </th>
+                      <th className="w-[269px] text-center">
                         Current Location (EDT)
                       </th>
                       <th className="w-[180px]">Logbook Mode</th>
@@ -90,19 +90,19 @@ const Vehicles = () => {
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
                       </td>
-                      <td className="text-left font-semibold">2010</td>
-                      <td className="text-left">---</td>
-                      <td className="font-semibold">3AKJHHDR6PSUJ9433</td>
-                      <td>--</td>
-                      <td className="text-left font-semibold">
+                      <td className="text-center font-semibold">2010</td>
+                      <td className="text-center">---</td>
+                      <td className="font-semibold text-center">3AKJHHDR6PSUJ9433</td>
+                      <td className="text-center">--</td>
+                      <td className="text-center font-semibold">
                         Muhammad zurrain,asif Amin Mudassar iqbual, gillespie
                         Edward, adam blake powers
                       </td>
 
-                      <td className="text-left font-semibold">
+                      <td className="text-center font-semibold">
                         Franklin County, GA, 30521, US Today, 01:58 AM
                       </td>
-                      <td className="font-semibold">ELD</td>
+                      <td className="font-semibold text-center">ELD</td>
                       <td></td>
                     </tr>
                     <tr className="border-b h-[135px]" onClick={()=>navigate('/Vehicledetail/2011')}>
@@ -112,43 +112,44 @@ const Vehicles = () => {
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
                       </td>
-                      <td className="text-left font-semibold">2011</td>
-                      <td className="text-left">---</td>
-                      <td className="font-semibold">3AKJHHDR6PSUJ9433</td>
-                      <td>--</td>
-                      <td className="text-left font-semibold">
+                      <td className="text-center font-semibold">2011</td>
+                      <td className="text-center">---</td>
+                      <td className="font-semibold text-center">3AKJHHDR6PSUJ9433</td>
+                      <td className="text-center">--</td>
+                      <td className="text-center font-semibold">
                         Muhammad zurrain,asif Amin Mudassar iqbual, gillespie
                         Edward, adam blake powers
                       </td>
 
-                      <td className="text-left font-semibold">
+                      <td className=" text-center font-semibold">
                         Franklin County, GA, 30521, US Today, 01:58 AM
                       </td>
-                      <td className="font-semibold">ELD</td>
+                      <td className="font-semibold  text-center">ELD</td>
                       <td></td>
                     </tr>
-                    <tr className="border-b h-[135px]" onClick={()=>navigate('/Vehicledetail/2012')}>
+                    <tr className="border-b h-[135px]" onClick={()=>navigate('/Vehicledetail/2011')}>
                       <td>
                         <div className="font-semibold flex items-center pl-2">
                           <input type="checkbox" />{" "}
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
                       </td>
-                      <td className="text-left font-semibold">2012</td>
-                      <td className="text-left">---</td>
-                      <td className="font-semibold">3AKJHHDR6PSUJ9433</td>
-                      <td>--</td>
-                      <td className="text-left font-semibold">
+                      <td className="text-center font-semibold">2011</td>
+                      <td className="text-center">---</td>
+                      <td className="font-semibold text-center">3AKJHHDR6PSUJ9433</td>
+                      <td className="text-center">--</td>
+                      <td className="text-center font-semibold">
                         Muhammad zurrain,asif Amin Mudassar iqbual, gillespie
                         Edward, adam blake powers
                       </td>
 
-                      <td className="text-left font-semibold">
+                      <td className=" text-center font-semibold">
                         Franklin County, GA, 30521, US Today, 01:58 AM
                       </td>
-                      <td className="font-semibold">ELD</td>
+                      <td className="font-semibold  text-center">ELD</td>
                       <td></td>
                     </tr>
+                 
                   </tbody>
                 </table>
               </div>

@@ -4,26 +4,26 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className="background h-screen flex justify-center items-center">
-      <div className="w-[500px] h-[700px] rounded-lg bg-[white]">
-        <div className="text-[#34B7C1] font-bold text-[100px] text-center border-b">
-          LOGO
+      <div className="w-[500px] rounded-lg bg-[white]">
+        <div className="flex justify-center border-b">
+         <img src="../nxt-eld-high-resolution-logo.png" alt="" className="w-[250px]" />
         </div>
         <div className=" border-b p-10">
-          <div className="font-bold text-3xl">Welcome to ELD!</div>
+          <div className="font-bold text-3xl">Welcome to NXT ELD!</div>
           <div className="text-[#77878F]">Please log-in your account</div>
         </div>
-        <div className="p-10">
+        <div className="px-10 py-6">
           <div>
             <label>Email Address / Mobile Number</label>
             <br />
-            <input className="border w-full h-[57px] mt-2" />
+            <input className="border w-full h-[50px] mt-2 pl-4" />
           </div>
 
           <div className="mt-2">
             <label>Password</label>
             <br />
             <input
-              className="border w-full h-[57px] mt-2 placeholder:pl-2"
+              className="border w-full h-[50px] mt-2 pl-4 placeholder:pl-2"
               placeholder="Password"
             />
           </div>

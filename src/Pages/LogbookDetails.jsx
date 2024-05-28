@@ -15,7 +15,7 @@ const LogbookDetails = () => {
       <div className="flex gap-2">
         <div>
           <div className="flex flex-col gap-2 bg-[#F4F6FA]">
-            <div className="flex gap-[200px] items-center bg-white px-[30px] py-[20px]">
+            <div className="flex justify-between items-center gap-6 bg-white px-[30px] py-[20px] w-full">
               <div className=" flex items-center gap-2">
                 <img src={profile} alt="" />
                 <div>

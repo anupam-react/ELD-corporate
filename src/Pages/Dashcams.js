@@ -9,14 +9,14 @@ const Dashcams = () => {
         <div className="w-[80%]  rounded-xl bg-[#F4F6FA] p-5 ">
           <div className="text-[28px]">Driver Monitoring System Preview</div>
           <div className="text-[#858B9A] text-[20px]">
-            You are viewing a TruckX placeholder powered by a sample data set!
+            You are viewing a NXT placeholder powered by a sample data set!
           </div>
           <img src={dashcam} alt="" />
         </div>
       </div>
       <div className="w-[30%] bg-white p-5 ">
         <div className="text-left">
-          You are viewing a TruckX placeholder powered by a sample data set!
+          You are viewing a NXT placeholder powered by a sample data set!
         </div>
         <div className="text-[#858B9A] text-left mt-2">
           Prevent accidents and exonerate drivers.
