@@ -7,13 +7,13 @@ const Trailers = () => {
       <div className="bg-[#F4F6FA] p-4 shadow rounded-md">
         <div className="bg-custom w-[60vw] h-[70vh] ">
           <div className="pt-[60px] pl-[40px] w-[30vw]">
-            <p className="text-white text-[50px] font-bold">
+            <p className="text-white text-[36px] lg:text-[50px] font-bold">
               Make NXT Work For You!
             </p>
             <p className="text-white">
               Asset Traking | Utilization | Geofancing & visibility
             </p>
-            <button className="bg-[#5c48ee] px-10 font-semibold mt-6 flex justify-center items-center gap-2  rounded-md text-white h-[45px]">
+            <button className="bg-[#5c48ee] px-10 font-semibold mt-6 flex justify-center items-center gap-2 rounded-md text-white h-[45px]">
               <IoMdAdd style={{ color: "white" }} /> Add Trailer
             </button>
           </div>

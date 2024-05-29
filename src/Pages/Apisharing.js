@@ -81,7 +81,7 @@ const Apisharing = () => {
                   <div className="mt-4 flex items-start gap-2">
                     <input type="checkbox" />
                     <div className="text-[#8E8F8F] font-bold">
-                      I agree to share TruckX Location Sharing API Key with API
+                      I agree to share NXT Location Sharing API Key with API
                       Partner. This will give API Partner access to location
                       information for selected vehicles.
                     </div>
@@ -138,14 +138,14 @@ const Apisharing = () => {
         </div>
         <hr className="mt-5" />
         <div className="mt-5">
-          <table class="border w-full ">
+          <table className="border w-full ">
             <thead>
               <tr className="bg-[#F0FAFB] h-[65px]  ">
-                <th className="w-[250px] ">Shared With</th>
-                <th className="w-[250px] ">Shared Assets</th>
-                <th className="w-[250px]">API Key </th>
-                <th className="w-[250px]">API Expiration</th>
-                <th className="w-[250px]">Action</th>
+                <th className="w-[250px] text-center ">Shared With</th>
+                <th className="w-[250px] text-center ">Shared Assets</th>
+                <th className="w-[250px] text-center">API Key </th>
+                <th className="w-[250px] text-center">API Expiration</th>
+                <th className="w-[250px] text-center">Action</th>
               </tr>
             </thead>
             <tbody></tbody>

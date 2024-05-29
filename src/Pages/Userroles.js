@@ -119,7 +119,7 @@ const Userroles = () => {
                 <div className="pl-10 pr-10">
                   <div className=" gap-5 justify-center mt-5 flex flex-col">
                     <div>
-                      <label className="text-[#8E8F8F]">NEw Password *</label>
+                      <label className="text-[#8E8F8F]">New Password *</label>
                       <br />
                       <input
                         placeholder="Type here...."
@@ -241,7 +241,7 @@ const Userroles = () => {
       ) : null}
       <div className="p-5">
         <div className="text-[28px] font-semibold flex justify-start">
-          Userroles
+          User Roles
         </div>
 
         <div className="mt-10 flex justify-between">
@@ -287,14 +287,14 @@ const Userroles = () => {
               <div className="mt-5">
                 <table class="border w-full ">
                   <thead>
-                    <tr className="bg-[#F0FAFB] h-[65px]  ">
-                      <th className="w-[180px] flex items-center gap-2 justify-left pl-2 h-[65px]">
+                    <tr className="bg-[#F0FAFB] h-[65px]">
+                      <th className="w-[180px] flex items-center gap-2 justify-center h-[65px]">
                         Name <LuArrowUpDown />
                       </th>
                       <th className="w-[180px]">Email</th>
-                      <th className="w-[180px]">Roles</th>
-                      <th className="w-[180px]">Terminals</th>
-                      <th className="w-[300px] flex items-center gap-2 justify-center  h-[65px]">
+                      <th className="w-[240px] flex items-center gap-2 justify-center h-[65px]">Roles <LuArrowUpDown /></th>
+                      <th className="w-[240px]">Terminals</th>
+                      <th className="w-[300px] flex items-center gap-2 justify-center h-[65px]">
                         Session Activity
                         <LuArrowUpDown /> <IoFilterSharp />
                       </th>

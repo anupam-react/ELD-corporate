@@ -290,28 +290,28 @@ const Drivers = () => {
                 <table class="border ">
                   <thead>
                     <tr className="bg-[#F0FAFB] h-[65px]  ">
-                      <th className="w-[180px] flex items-center gap-2 justify-start pl-2 h-[65px]">
+                      <th className="w-[180px] flex items-center gap-2 justify-center pl-2 h-[65px]">
                         <input type="checkbox" /> Name <LuArrowUpDown />
                       </th>
-                      <th className="w-[180px] ">Start Date</th>
-                      <th className="w-[180px] ">Cellphone</th>
-                      <th className="w-[180px]">Unit No </th>
-                      <th className="w-[200px]">Time Zone</th>
-                      <th className="w-[180px]">License</th>
-                      <th className="w-[180px]">Mode</th>
-                      <th className="w-[180px]">Cycle</th>
-                      <th className="w-[180px]">Restart</th>
-                      <th className="w-[180px]">Break</th>
-                      <th className="w-[180px]">Action</th>
+                      <th className="w-[180px] text-center ">Start Date</th>
+                      <th className="w-[180px] text-center">Cellphone</th>
+                      <th className="w-[180px] text-center">Unit No </th>
+                      <th className="w-[200px] text-center">Time Zone</th>
+                      <th className="w-[180px] text-center">License</th>
+                      <th className="w-[180px] text-center">Mode</th>
+                      <th className="w-[180px] text-center">Cycle</th>
+                      <th className="w-[180px] text-center">Restart</th>
+                      <th className="w-[180px] text-center">Break</th>
+                      <th className="w-[180px] text-center">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-b h-[79px]">
-                      <td className="flex gap-2 justify-start h-[79px] items-center pl-2">
+                      <td className="flex gap-2 justify-center h-[79px] items-center pl-2">
                         <input type="checkbox" /> Adam Blake Powers
                       </td>
-                      <td>2024-03-14</td>
-                      <td className=""> 7277 772 772</td>
+                      <td className="text-center">2024-03-14</td>
+                      <td className="text-center"> 7277 772 772</td>
                       <td>
                         <div className="flex gap-2 items-center justify-center">
                           2101{" "}
@@ -321,16 +321,16 @@ const Drivers = () => {
                           />
                         </div>
                       </td>
-                      <td className="">EST</td>
-                      <td>T67529974</td>
-                      <td>ELD</td>
-                      <td>70hrs/8days</td>
-                      <td>34 hr</td>
-                      <td>30 min</td>
+                      <td className="text-center">EST</td>
+                      <td className="text-center">T67529974</td>
+                      <td className="text-center">ELD</td>
+                      <td className="text-center">70hrs/8days</td>
+                      <td className="text-center">34 hr</td>
+                      <td className="text-center">30 min</td>
                       <td>
                         {" "}
                         <div
-                          className="flex justify-center z-20 relative"
+                          className="flex justify-center z-20 relative cursor-pointer"
                           onClick={toggleaction}
                         >
                           <HiOutlineDotsVertical />

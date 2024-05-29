@@ -21,7 +21,7 @@ import Sensordevices from "./Pages/Sensordevices";
 import Dashcamdevices from "./Pages/Dashcamdevices";
 import Companyprofile from "./Pages/Companyprofile";
 import Billingdetails from "./Pages/Billingdetails";
-// import Apisharing from "./Pages/Apisharing";
+import Apisharing from "./Pages/Apisharing";
 import Alerts from "./Pages/Alerts";
 import Login from "./Components/Login/Login";
 import Diagnosticevents from "./Pages/Diagnosticevents";
@@ -36,7 +36,7 @@ import ParkedCar from "./Pages/ParkedCar";
 import Geofences from "./Pages/Geofences";
 import IftatripsDetails from "./Pages/IftatripsDetails";
 import IftareportsDetails from "./Pages/IftareportsDetails";
-// import TerminalsDatils from "./Pages/TerminalsDatils";
+import TerminalsDatils from "./Pages/TerminalsDatils";
 import Trailers from "./Pages/Trailers";
 
 const router = createBrowserRouter([
@@ -86,11 +86,11 @@ const router = createBrowserRouter([
       { path: "/Devices/SensorDevices", element: <Sensordevices /> },
       { path: "/Devices/DashcamDevices", element: <Dashcamdevices /> },
       { path: "/Terminals", element: <Terminals /> },
-      // { path: "/Terminals/:id", element: <TerminalsDatils /> },
+      { path: "/Terminals/:id", element: <TerminalsDatils /> },
       { path: "/Alerts", element: <Alerts /> },
       { path: "/Companyprofile", element: <Companyprofile /> },
       { path: "/Billingdetails", element: <Billingdetails /> },
-      // { path: "/Apisharing", element: <Apisharing /> },
+      { path: "/Apisharing", element: <Apisharing /> },
       { path: "/Diagnosticevents", element: <Diagnosticevents /> },
     
     ],

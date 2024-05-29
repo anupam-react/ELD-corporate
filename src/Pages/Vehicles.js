@@ -51,7 +51,7 @@ const Vehicles = () => {
           {selectedTab === "Active Truck" && (
             <>
               <div className="mt-5">
-                <table class="border ">
+                <table className ="border w-full ">
                   <thead>
                     <tr className="bg-[#F0FAFB] h-[65px]  ">
                       <th className="w-[180px] text-center pl-2">
@@ -85,7 +85,7 @@ const Vehicles = () => {
                   <tbody>
                     <tr className="border-b h-[135px] cursor-pointer" onClick={()=>navigate('/Vehicledetail/2010')}>
                       <td>
-                        <div className="font-semibold flex items-center pl-2">
+                        <div className="font-semibold flex justify-center items-center pl-2">
                           <input type="checkbox" />{" "}
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
@@ -105,14 +105,14 @@ const Vehicles = () => {
                       <td className="font-semibold text-center">ELD</td>
                       <td></td>
                     </tr>
-                    <tr className="border-b h-[135px]" onClick={()=>navigate('/Vehicledetail/2011')}>
+                    <tr className="border-b h-[135px] cursor-pointer" onClick={()=>navigate('/Vehicledetail/2010')}>
                       <td>
-                        <div className="font-semibold flex items-center pl-2">
+                        <div className="font-semibold flex justify-center items-center pl-2">
                           <input type="checkbox" />{" "}
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
                       </td>
-                      <td className="text-center font-semibold">2011</td>
+                      <td className="text-center font-semibold">2010</td>
                       <td className="text-center">---</td>
                       <td className="font-semibold text-center">3AKJHHDR6PSUJ9433</td>
                       <td className="text-center">--</td>
@@ -121,20 +121,20 @@ const Vehicles = () => {
                         Edward, adam blake powers
                       </td>
 
-                      <td className=" text-center font-semibold">
+                      <td className="text-center font-semibold">
                         Franklin County, GA, 30521, US Today, 01:58 AM
                       </td>
-                      <td className="font-semibold  text-center">ELD</td>
+                      <td className="font-semibold text-center">ELD</td>
                       <td></td>
                     </tr>
-                    <tr className="border-b h-[135px]" onClick={()=>navigate('/Vehicledetail/2011')}>
+                    <tr className="border-b h-[135px] cursor-pointer" onClick={()=>navigate('/Vehicledetail/2010')}>
                       <td>
-                        <div className="font-semibold flex items-center pl-2">
+                        <div className="font-semibold flex justify-center items-center pl-2">
                           <input type="checkbox" />{" "}
                           <GoDotFill style={{ color: "#21DDB8" }} /> Connected
                         </div>
                       </td>
-                      <td className="text-center font-semibold">2011</td>
+                      <td className="text-center font-semibold">2010</td>
                       <td className="text-center">---</td>
                       <td className="font-semibold text-center">3AKJHHDR6PSUJ9433</td>
                       <td className="text-center">--</td>
@@ -143,12 +143,13 @@ const Vehicles = () => {
                         Edward, adam blake powers
                       </td>
 
-                      <td className=" text-center font-semibold">
+                      <td className="text-center font-semibold">
                         Franklin County, GA, 30521, US Today, 01:58 AM
                       </td>
-                      <td className="font-semibold  text-center">ELD</td>
+                      <td className="font-semibold text-center">ELD</td>
                       <td></td>
                     </tr>
+                 
                  
                   </tbody>
                 </table>

@@ -6,10 +6,10 @@ const Sensordevices = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-between gap-4">
         <div className="bg-[#F4F6FA] p-5">
-        <div className="w-[65vw] md:w-[55vw] rounded-xl bg-white p-10 ">
+        <div className="w-full lg:w-[65vw] md:w-[55vw] rounded-xl bg-white p-10 ">
           <div className="flex gap-5">
             <div className="w-[20vw] pr-5">
-              <div className="text-[30px] text-left">
+              <div className="text-[24px] lg:text-[30px] text-left">
               Secure . Monitor . Protect
               </div>
               <div className="mt-5 text-[20px] text-left text-[#858B9A]">
@@ -22,20 +22,21 @@ const Sensordevices = () => {
                 </button>
               </div>
             </div>
-            <div className="w-[20vw] flex gap-2">
-              <div className="w-[10vw] bg-[#858B9A] h-[10vw]"></div>
-              <div className="w-[10vw] bg-[#858B9A] h-[10vw]"></div>
+            <div className="w-[40vw] lg:w-[20vw] flex gap-2">
+              <div className="w-[20vw] lg:w-[10vw] bg-[#858B9A] h-[20vw] lg:h-[10vw]"></div>
+              <div className="w-[20vw] lg:w-[10vw] bg-[#858B9A] h-[20vw] lg:h-[10vw]"></div>
             </div>
           </div>
           <div className="mt-10">
             <div className="text-[#858B9A] font-bold text-left">
               Our Products
             </div>
-            <div className="mt-5 flex gap-2">
-              <div className="bg-[#858B9A] w-[10vw] h-[20vh]"></div>
-              <div className="bg-[#858B9A] w-[10vw] h-[20vh]"></div>
-              <div className="bg-[#858B9A] w-[10vw] h-[20vh]"></div>
-              <div className="bg-[#858B9A] w-[10vw] h-[20vh]"></div>
+            <div className="mt-5 flex flex-wrap gap-2">
+              <div className="bg-[#858B9A] w-[20vw] lg:w-[10vw] h-[20vw] lg:h-[20vh]"></div>
+              <div className="bg-[#858B9A] w-[20vw] lg:w-[10vw] h-[20vw] lg:h-[20vh]"></div>
+              <div className="bg-[#858B9A] w-[20vw] lg:w-[10vw] h-[20vw] lg:h-[20vh]"></div>
+              <div className="bg-[#858B9A] w-[20vw] lg:w-[10vw] h-[20vw] lg:h-[20vh]"></div>
+              <div className="bg-[#858B9A] w-[20vw] lg:w-[10vw] h-[20vw] lg:h-[20vh]"></div>
             </div>
           </div>
         </div>

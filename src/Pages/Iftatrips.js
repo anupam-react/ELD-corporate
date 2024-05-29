@@ -68,7 +68,7 @@ const Iftatrips = () => {
             </div>
           </div>
         </div>
-        <div className="h-[85px] w-[820px] rounded-lg bg-[#DBEAFE] font-semibold border border-[#93C5FD] flex justify-center items-center gap-2">
+        <div className="py-8 h-fit w-full rounded-lg bg-[#DBEAFE] font-semibold border border-[#93C5FD] flex justify-center items-center gap-2">
           <IoMdInformationCircleOutline style={{ color: "#93C5FD" }} />  Please
           select a vehicle to view individual reports.
         </div>

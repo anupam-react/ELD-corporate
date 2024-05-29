@@ -273,7 +273,7 @@ const Billingdetails = () => {
       <div className="p-5">
         <div className="text-[28px]  font-semibold ">Billing Details</div>
         <div className="mt-5">
-          <div className="flex gap-5">
+          <div className="flex flex-col lg:flex-row gap-5">
             <div className="w-[60%]">
               <div className="h-[80px] flex justify-between pl-10 pr-10 items-center rounded-lg border-[#EB5757] border text-[#EB5757] bg-[#F0506E33]">
                 <div className="text-slate-500 flex items-center gap-2">
@@ -419,13 +419,13 @@ const Billingdetails = () => {
           </div>
         </div>
 
-        <table class="table-auto mt-5">
+        <table className="table-auto w-full mt-5">
           <thead>
             <tr className="border-y h-[40px]">
-              <th className="w-[350px]">Date</th>
-              <th className="w-[350px]">Amount</th>
-              <th className="w-[350px] ">Payment Source</th>
-              <th className="w-[350px]">Invoices</th>
+              <th className="text-center">Date</th>
+              <th className="text-center">Amount</th>
+              <th className="text-center ">Payment Source</th>
+              <th className="text-center">Invoices</th>
             </tr>
           </thead>
           <tbody>

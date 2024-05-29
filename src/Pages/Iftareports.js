@@ -67,8 +67,8 @@ const Iftareports = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div className="m-5  flex justify-between items-center">
+        <div className=" flex-1">
+          <div className="m-5 gap-2  flex justify-between items-center">
             <div>
               <input
                 type="date"
@@ -91,7 +91,7 @@ const Iftareports = () => {
             </div>
           </div>
 
-          <div className="h-[85px] w-[820px] rounded-lg bg-[#FEF3C7] font-semibold border border-[#CA8A04] flex justify-center items-center gap-2">
+          <div className="h-fit py-6 w-full rounded-lg bg-[#FEF3C7] font-semibold border border-[#CA8A04] flex justify-center items-center gap-2">
             <IoMdInformationCircleOutline style={{ color: "#93C5FD" }} />{" "}
              Please select a vehicle to view individual reports.
           </div>

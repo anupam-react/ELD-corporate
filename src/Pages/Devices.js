@@ -62,9 +62,9 @@ const Devices = () => {
                 </thead>
                 <tbody>
                   <tr className="border-b h-[79px]">
-                    <td className=" pl-2">Muhammad Zurrain</td>
-                    <td>30AEA4827EFE</td>
-                    <td className="">1XKYD49X4JJ185037</td>
+                    <td className="text-center">Muhammad Zurrain</td>
+                    <td className="text-center">30AEA4827EFE</td>
+                    <td className="text-center">1XKYD49X4JJ185037</td>
                     <td>
                       <div className="flex gap-2 items-center justify-center">
                         <div className="w-[139px] h-[34px] bg-[#32D29633] rounded-2xl text-[#18A88C] flex justify-center gap-1 items-center">
@@ -72,12 +72,12 @@ const Devices = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="">2023-09-24, 09:13 pm</td>
+                    <td className="text-center">2023-09-24, 09:13 pm</td>
                   </tr>
                   <tr className="border-b h-[79px]">
-                    <td className=" pl-2">Muhammad Zurrain</td>
-                    <td>30AEA4827EFE</td>
-                    <td className="">1XKYD49X4JJ185037</td>
+                    <td className="text-center">Muhammad Zurrain</td>
+                    <td className="text-center">30AEA4827EFE</td>
+                    <td className="text-center">1XKYD49X4JJ185037</td>
                     <td>
                       <div className="flex gap-2 items-center justify-center">
                         <div className="w-[139px] h-[34px] bg-[#32D29633] rounded-2xl text-[#18A88C] flex justify-center gap-1 items-center">
@@ -85,12 +85,12 @@ const Devices = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="">2023-09-24, 09:13 pm</td>
+                    <td className="text-center">2023-09-24, 09:13 pm</td>
                   </tr>
                   <tr className="border-b h-[79px]">
-                    <td className=" pl-2">Muhammad Zurrain</td>
-                    <td>30AEA4827EFE</td>
-                    <td className="">1XKYD49X4JJ185037</td>
+                    <td className="text-center">Muhammad Zurrain</td>
+                    <td className="text-center">30AEA4827EFE</td>
+                    <td className="text-center">1XKYD49X4JJ185037</td>
                     <td>
                       <div className="flex gap-2 items-center justify-center">
                         <div className="w-[139px] h-[34px] bg-[#32D29633] rounded-2xl text-[#18A88C] flex justify-center gap-1 items-center">
@@ -98,8 +98,9 @@ const Devices = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="">2023-09-24, 09:13 pm</td>
+                    <td className="text-center">2023-09-24, 09:13 pm</td>
                   </tr>
+                
                 </tbody>
               </table>
             </div>
