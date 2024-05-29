@@ -8,8 +8,8 @@ const Trackingdevices = () => {
       <div className="bg-[#F4F6FA] p-5">
         <div className="w-full lg:w-[65vw] md:w-[55vw] rounded-xl bg-white p-10 ">
           <div className="flex gap-5">
-            <div className="text-[24px] lg:text-[30px] pr-5">
-              <div className="text-[30px] text-left">
+          <div className="w-[25vw] pr-5">
+              <div className="text-[24px] lg:text-[30px] text-left">
                 Empower Your Business with Advanced Asset Management!
               </div>
               <div className="mt-5 text-[20px] text-left text-[#858B9A]">

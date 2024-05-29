@@ -282,13 +282,13 @@ const Billingdetails = () => {
                 </div>
                 <div className="text-[#EB5757]">1</div>
               </div>
-              <div className="p-5 box-shadow rounded-lg flex justify-between items-center mt-5">
+              <div className="p-5 box-shadow rounded-lg flex flex-col lg:flex-row justify-between items-center mt-5">
                 <div>
-                  <div className="text-slate-500 flex items-center gap-2">
+                  <div className="text-slate-500 flex  items-center gap-2">
                     <MdOutlinePayment size={20} style={{ color: "#34B7C1" }} />{" "}
                     Payment Details
                   </div>
-                  <div className="text-[#666666] w-[300px] text-[16px] mt-2 font-semibold">
+                  <div className="text-[#666666] p-4 text-[16px] mt-2 font-semibold">
                     XXXX XXXX XXXX 9821, VISa | Valid Till 4/2342
                   </div>
                 </div>
@@ -319,10 +319,10 @@ const Billingdetails = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[60%]  border rounded-lg p-5">
+            <div className="w-full lg:w-[60%]  border rounded-lg p-5">
               <div className="flex justify-between items-center">
                 <div className="text-[22px]">Plan Details</div>
-                <div className="flex gap-2">
+                <div className="flex flex-col lg:flex-row gap-2">
                   <button className="bg-[#34B7C1] text-white rounded-lg   w-[150px] h-[44px]">
                     Upgrade
                   </button>
