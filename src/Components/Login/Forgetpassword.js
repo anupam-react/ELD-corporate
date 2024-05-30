@@ -5,8 +5,8 @@ const Forgetpassword = () => {
   return (
     <div className="background h-screen flex justify-center items-center">
       <div className="w-[500px] h-[700px] rounded-lg bg-[white]">
-        <div className="text-[#34B7C1] font-bold text-[100px] text-center border-b">
-          LOGO
+      <div className="flex justify-center border-b">
+         <img src="../nxt-eld-high-resolution-logo.png" alt="" className="w-[250px]" />
         </div>
         <div className=" border-b p-10">
           <div className="font-bold text-3xl">Set New Password</div>
