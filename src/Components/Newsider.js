@@ -236,7 +236,10 @@ const Newsidebar = () => {
           </Sidebar.Collapse>
         </Link>
         <Link to="/Drivers">
-        <Sidebar.Collapse
+        <Sidebar.Item  icon={drivers}>
+        Drivers
+        </Sidebar.Item>
+        {/* <Sidebar.Collapse
             icon={drivers}
             label="Drivers"
             renderChevronIcon={(theme, open) => {
@@ -249,7 +252,7 @@ const Newsidebar = () => {
             <Sidebar.Item >Delete Drivers</Sidebar.Item>
 
              </Link>
-          </Sidebar.Collapse>
+          </Sidebar.Collapse> */}
         </Link>
         <Link to="/Devices">
         <Sidebar.Collapse

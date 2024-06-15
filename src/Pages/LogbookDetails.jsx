@@ -106,61 +106,86 @@ const LogbookDetails = () => {
             />
           </div>
           <div className="mt-5">
-            <table class="border ">
+          <table className="border w-full ">
               <thead>
                 <tr className="bg-[#F0FAFB] h-[65px] ">
-                  <th className="w-[180px] flex items-center justify-center h-[65px]">
+                  <th className="flex items-center justify-center h-[65px]">
                     Status
                   </th>
-                  <th className="w-[250px]  ">Duration</th>
-                  <th className="w-[250px]">Location</th>
-                  <th className="w-[180px] "> Comment</th>
-                  <th className="w-[100px] text-left">Actions</th>
+                  <th className=" text-center ">Duration</th>
+                  <th className=" text-center ">Location</th>
+                  <th className=" text-center "> Comment</th>
+                  {/* <th className="text-center ">Actions</th> */}
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b">
+                <tr className="border-b py-1">
                   <td className="flex justify-center items-center">
-                    <div className="bg-[#f298a933] text-[#FB6262] px-2 py-1 rounded-2xl mt-2">
+                    <div className="bg-[#f298a933] text-[#FB6262] px-4 py-1 rounded-2xl mt-2">
                       OFF
                     </div>
                   </td>
                   <td>
-                    <p className="font-[600]">OverspOff Duty</p>
-                    00:00:00|06hrs 04minseeding
+                    <p className="font-[600] text-center">OverspOff Duty</p>
+                    <p className="text-center ">00:00:00|06hrs 04minseeding</p>
+                    
                   </td>
-                  <td>Kingsville, TX, 78363</td>
-                  <td>No comment</td>
-                  <td>
+                  <td className="text-center ">Kingsville, TX, 78363</td>
+                  <td className="text-center ">No comment</td>
+                  {/* <td className="flex justify-center items-center">
                     <img
                       src="../Vector.png"
                       alt=""
                       className="cursor-pointer"
                       onClick={() => setOpenModal(true)}
                     />
-                  </td>
+                  </td> */}
                 </tr>
-                <tr className="border-b">
+                <tr className="border-b py-1">
                   <td className="flex justify-center items-center">
-                    <div className="bg-[#f298a933] text-[#FB6262] px-2 py-1 rounded-2xl mt-2">
+                    <div className="bg-[#f298a933] text-[#FB6262] px-4 py-1 rounded-2xl mt-2">
                       OFF
                     </div>
                   </td>
                   <td>
-                    <p className="font-[600]">OverspOff Duty</p>
-                    00:00:00|06hrs 04minseeding
+                    <p className="font-[600] text-center">OverspOff Duty</p>
+                    <p className="text-center ">00:00:00|06hrs 04minseeding</p>
+                    
                   </td>
-                  <td>Kingsville, TX, 78363</td>
-                  <td>No comment</td>
-                  <td>
+                  <td className="text-center ">Kingsville, TX, 78363</td>
+                  <td className="text-center ">No comment</td>
+                  {/* <td className="flex justify-center items-center">
                     <img
                       src="../Vector.png"
                       alt=""
                       className="cursor-pointer"
                       onClick={() => setOpenModal(true)}
                     />
-                  </td>
+                  </td> */}
                 </tr>
+                <tr className="border-b py-1">
+                  <td className="flex justify-center items-center">
+                    <div className="bg-[#f298a933] text-[#FB6262] px-4 py-1 rounded-2xl mt-2">
+                      OFF
+                    </div>
+                  </td>
+                  <td>
+                    <p className="font-[600] text-center">OverspOff Duty</p>
+                    <p className="text-center ">00:00:00|06hrs 04minseeding</p>
+                    
+                  </td>
+                  <td className="text-center ">Kingsville, TX, 78363</td>
+                  <td className="text-center ">No comment</td>
+                  {/* <td className="flex justify-center items-center">
+                    <img
+                      src="../Vector.png"
+                      alt=""
+                      className="cursor-pointer"
+                      onClick={() => setOpenModal(true)}
+                    />
+                  </td> */}
+                </tr>
+            
               </tbody>
             </table>
           </div>
